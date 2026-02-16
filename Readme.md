@@ -5,17 +5,6 @@ The focus of this repository is to build a strong conceptual and practical under
 
 ---
 
-## Repository Structure
-
-svm-fundamentals/
-│
-├── Basic_SVC_Implementation.ipynb  
-├── SVM_Kernels_Implementation.ipynb  
-├── Support_Vector_Regression_Implementation.ipynb  
-└── README.md  
-
----
-
 ## What This Repository Covers
 
 ### Support Vector Classification (SVC)
