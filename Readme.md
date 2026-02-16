@@ -1,47 +1,56 @@
-# Support Vector Machines (SVM) – Fundamentals & Implementation
+# Support Vector Machines (SVM) – Fundamentals
 
-This repository contains my **hands-on learning implementations of Support Vector Machines (SVM)** using Python and scikit-learn.
-
-The goal of this repository is to build a **strong conceptual and practical understanding** of SVMs, including classification, regression, and kernel-based decision boundaries.
-
----
-
-## 📌 Contents
-
-- **Basic SVC Implementation**
-  - Binary classification using Support Vector Classifier
-  - Understanding margin maximization
-  - Effect of hyperparameter **C**
-
-- **SVM Kernels Implementation**
-  - Linear Kernel
-  - Polynomial Kernel
-  - Radial Basis Function (RBF) Kernel
-  - Visualization of decision boundaries
-  - Understanding the **kernel trick**
-
-- **Support Vector Regression (SVR)**
-  - Regression using SVM
-  - Role of **epsilon**, **C**, and **kernel**
-  - Comparison with traditional regression behavior
+This repository contains my hands-on learning implementations of Support Vector Machines (SVM) using Python and scikit-learn.
+The focus of this repository is to build a strong conceptual and practical understanding of SVM algorithms.
 
 ---
 
-## 🎯 Purpose of This Repository
+## Repository Structure
+
+svm-fundamentals/
+│
+├── Basic_SVC_Implementation.ipynb  
+├── SVM_Kernels_Implementation.ipynb  
+├── Support_Vector_Regression_Implementation.ipynb  
+└── README.md  
+
+---
+
+## What This Repository Covers
+
+### Support Vector Classification (SVC)
+- Binary classification using Support Vector Machines
+- Margin maximization and support vectors
+- Effect of hyperparameter C
+- Linear decision boundaries
+
+### SVM Kernels
+- Linear Kernel
+- Polynomial Kernel
+- RBF (Gaussian) Kernel
+- Non-linear decision boundaries
+- Understanding the kernel trick
+
+### Support Vector Regression (SVR)
+- Regression using Support Vector Machines
+- Role of epsilon, C, and kernel
+- Difference between SVR and traditional regression methods
+
+---
+
+## Objective
 
 This repository was created to:
+- Understand how maximum margin classifiers work
+- Learn the intuition behind kernel-based learning
+- Practice hyperparameter tuning in SVM
+- Strengthen machine learning fundamentals
 
-- Understand the **mathematical intuition** behind SVMs
-- Learn how **maximum margin classifiers** work
-- Explore **kernel-based non-linear classification**
-- Practice **hyperparameter tuning** in SVMs
-- Build strong ML fundamentals before moving to advanced projects
-
-⚠️ This is a **learning-focused repository**, not a production or deployment project.
+Note: This is a learning-focused repository, not a production or deployment project.
 
 ---
 
-## 🛠️ Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python
 - NumPy
@@ -51,26 +60,10 @@ This repository was created to:
 
 ---
 
-## 📂 Project Structure
 
-svm-fundamentals/
-│
-├── Basic_SVC_Implementation.ipynb
-├── SVM_Kernels_Implementation.ipynb
-├── Support_Vector_Regression_Implementation.ipynb
-└── README.md
+## Future Improvements
 
----
-
-## 🚀 Future Improvements
-
-- Add mathematical derivations in markdown
+- Add mathematical derivations using markdown
+- Apply SVM to real-world datasets
 - Compare SVM with Logistic Regression and Linear Regression
-- Apply SVM to a real-world dataset
-- Hyperparameter tuning using GridSearchCV
-
----
-
-## 📖 Notes
-
-This repository reflects my **learning journey in machine learning fundamentals**, focusing specifically on Support Vector Machines.
+- Add hyperparameter tuning using GridSearchCV
